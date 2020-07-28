@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Head from "next/head";
-import { INDIGO_DYE, COLUMBIA_BLUE } from "./colors";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Head from 'next/head'
+import { INDIGO_DYE, COLUMBIA_BLUE } from './colors'
 
 const Layout = ({ children }) => (
   <div className="Container">
@@ -45,10 +45,10 @@ const Layout = ({ children }) => (
       }
     `}</style>
   </div>
-);
+)
 
 Layout.propTypes = {
   children: PropTypes.any.isRequired,
-};
+}
 
-export default Layout;
+export default Layout

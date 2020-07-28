@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Headline from '../components/headline'
 
 export default function Home() {
   return (
     <Layout>
-      <h1 className="title">demidigitalrenegades</h1>
-      <p className="description">only human, sometimes</p>
+      <Headline />
     </Layout>
   )
 }

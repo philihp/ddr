@@ -25,7 +25,7 @@
     "@philihp/eslint-config": "3.0.2",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
-    "husky": "4.2.5",
+    "husky": "6.0.0",
     "lint-staged": "10.2.11"
   },
   "lint-staged": {
